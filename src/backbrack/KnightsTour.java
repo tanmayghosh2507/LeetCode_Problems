@@ -1,4 +1,4 @@
-package backtrack;
+package backbrack;
 
 public class KnightsTour {
 
