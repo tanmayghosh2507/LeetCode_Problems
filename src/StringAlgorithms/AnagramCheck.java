@@ -1,4 +1,4 @@
-package StringAlgorithms;
+package stringalgorithms;
 
 import java.util.Arrays;
 

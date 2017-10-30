@@ -1,4 +1,4 @@
-package DynamicProgramming;
+package dynamicprogramming;
 
 public class SubsetSum {
 

@@ -1,4 +1,4 @@
-package CodingCompanies;
+package codingcompanies;
 
 
 import java.io.BufferedReader;
