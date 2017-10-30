@@ -1,6 +1,6 @@
 package divideandconquer;
 
-// 2D Matrix Search II LeetCode.
+// 2D Matrix Search I & II LeetCode.
 
 public class MatrixSearch2D {
 
