@@ -9,15 +9,15 @@ public class RemoveDuplicatesFromCharArray {
 		String str = "cbacdcbc";
 		System.out.println(removeDuplicateLetters(str));
 	}
-	
+
 	public static String removeDuplicateLetters(String s) {
-        Set<Character> charSet = new HashSet<>();
-        for(int i=0; i<s.length(); i++)
-        	charSet.add(s.charAt(i));
-        String str = "";
-        for (Character character : charSet) {
-			str = str.concat(character+"");
+		Set<Character> charSet = new HashSet<>();
+		for (int i = 0; i < s.length(); i++)
+			charSet.add(s.charAt(i));
+		String str = "";
+		for (Character character : charSet) {
+			str = str.concat(character + "");
 		}
-        return str;
-    }
+		return str;
+	}
 }
