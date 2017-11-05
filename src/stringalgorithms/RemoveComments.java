@@ -30,8 +30,8 @@ public class RemoveComments {
 				}
 			} else if (string.contains("/*") && string.contains("*/") && !opencomment
 					&& string.indexOf("/*") < string.indexOf("*/")) {
-				String cut = string.substring(0, string.indexOf("/*"))
-							+ string.substring(string.substring(string.indexOf("/*")+2, string.length()).indexOf("*/") + 2, string.length());
+				String cut = string.substring(0, string.indexOf("/*")) + string.substring(
+						string.substring(string.indexOf("/*") + 2, string.length()).indexOf("*/") + 2, string.length());
 				if (cut != null || cut != "")
 					str.add(cut);
 			} else if (string.contains("/*")) {
