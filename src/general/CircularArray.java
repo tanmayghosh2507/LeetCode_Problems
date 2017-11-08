@@ -16,9 +16,9 @@ public class CircularArray {
 			return false;
 		for (int i = 0; i < size; i++) {
 			int temp = nums[count];
-			if (nums[count] == 0 && dir % 2 == 0) {
+			if (nums[count] == 0 && dir % 2 == 0)
 				return true;
-			}
+				
 			nums[count] = 0;
 			if (temp == size || temp == -size)
 				return false;
